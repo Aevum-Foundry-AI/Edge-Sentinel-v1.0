@@ -4,6 +4,10 @@
 
 > Qwen Cloud Global AI Hackathon · **Track 5: EdgeAgent** · by [Aevum Foundry AI Ltd](https://aevumfoundry.ai)
 
+<p align="center">
+  <img src="thumbnail.png" alt="Aevum Edge Sentinel" width="680">
+</p>
+
 Aevum Edge Sentinel is a screenless, wrist-worn health-sensing node. Cheap, no-solder sensors read your body and your surroundings; the device extracts features **on-device**, and Qwen (running on Alibaba Cloud) interprets them against *your own baseline* to return a gentle, explainable wellbeing nudge. Raw sensor data never leaves the wrist, consent is enforced fail-closed, and the system keeps working — with a simpler local rule — when the network drops.
 
 It deliberately **never diagnoses**. It tells you whether your signals are **steady**, worth a **watch**, or **elevated** versus your baseline, explains why in plain language, and — if something is persistently off — signposts you to a real clinician. It never names or infers a condition, and never tries to treat one you've declared.
